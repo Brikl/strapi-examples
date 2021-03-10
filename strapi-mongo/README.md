@@ -104,4 +104,4 @@ This response also throw an error in graphql plugin as the `ID` type doesn't mat
 }
 ```
 
-
+Next: [Similar steps with postgres](../strapi-postgres/README.md)
