@@ -18,14 +18,16 @@ $ yarn develop
 ### Add Page to Single type
  - Go to API documentation in Single types
  - Under `Sections`(repeatable component) add a page you have created in "Test Steps"
+ - Save and publish
     
+##### Update role permissions to public access
 ##### Go to URL http://localhost:1337/api-documentation
 
 Below is the sample response where you can see, there is no data available under `sider`, instead there is `id` which has type Buffer,
 This response also throw error in graphql plugin as the `ID` type doesn't match.
 
  - No data under dynamic component `sider`
- - Graphql plugin error as `ID` return Buffer instead of type `ID`
+ - Graphql plugin error as `ID` returns Buffer instead of type `ID`
 ```
 {
     "_id": "6048456b58544556376286f8",

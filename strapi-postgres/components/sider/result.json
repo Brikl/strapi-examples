@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sider_results",
+  "info": {
+    "name": "result",
+    "icon": "shapes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "result": {
+      "type": "richtext"
+    }
+  }
+}

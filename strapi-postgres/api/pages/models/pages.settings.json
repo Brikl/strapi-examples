@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "pages",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "sider": {
+      "type": "dynamiczone",
+      "components": [
+        "sider.code",
+        "sider.result"
+      ]
+    },
+    "seo": {
+      "type": "dynamiczone",
+      "components": [
+        "page.meta"
+      ]
+    },
+    "pages": {
+      "collection": "pages"
+    }
+  }
+}

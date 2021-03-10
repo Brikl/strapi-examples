@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "api_documentations",
+  "info": {
+    "name": "API documentation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "seo": {
+      "type": "dynamiczone",
+      "components": [
+        "page.keywords"
+      ]
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.sections"
+    }
+  }
+}

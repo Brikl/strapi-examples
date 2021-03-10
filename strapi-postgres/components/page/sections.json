@@ -7,7 +7,7 @@
   "options": {},
   "attributes": {
     "page": {
-      "model": "pages"
+      "collection": "pages"
     },
     "slug": {
       "type": "string"
