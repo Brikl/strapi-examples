@@ -10,14 +10,14 @@ $ yarn develop
 ```
 
 ### Test Steps
-    - Login
-    - Create a page inside "Pages" Collection types
-    - Add Dynamic component sider with code/ result types.
-    - Fill in some random values
+ - Login
+ - Create a page inside `Pages` Collection types
+ - Add Dynamic component `sider` with code/ result types.
+ - Fill in some random values
     
 ### Add Page to Single type
-    - Go to API documentation in Single types
-    - Under "Sections" repetable component add page you have create in "Test Steps"
+ - Go to API documentation in Single types
+ - Under `Sections`(repeatable component) add a page you have created in "Test Steps"
     
 ##### Go to URL http://localhost:1337/api-documentation
 
