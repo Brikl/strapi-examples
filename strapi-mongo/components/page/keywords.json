@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_keywords",
+  "info": {
+    "name": "keywords",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "keywords": {
+      "type": "richtext"
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.meta"
+    }
+  }
+}

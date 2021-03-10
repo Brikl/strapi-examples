@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_sider_codes",
+  "info": {
+    "name": "code",
+    "icon": "file-code",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "richtext"
+    },
+    "language": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

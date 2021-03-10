@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_page_sections",
+  "info": {
+    "name": "sections",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "page": {
+      "collection": "pages"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
