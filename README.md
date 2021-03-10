@@ -1,0 +1,2 @@
+# strapi-examples
+Strapi examples
