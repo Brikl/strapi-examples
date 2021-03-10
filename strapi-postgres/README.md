@@ -73,7 +73,7 @@ Below is the sample response where you can see, there is no data available under
 
 Once you have seen the response in graphql playground then follow the steps below: 
 
- - Go to `strapi-postgres/components/page/sections.json` where you will see component model like below: 
+ - Go to `strapi-postgres/components/page/sections.json` [sections.json](components/page/sections.json) where you will see component model like below: 
  ```
 {
   "collectionName": "components_page_sections",
