@@ -24,7 +24,7 @@ $ yarn develop
 ##### Go to URL http://localhost:1337/api-documentation
 
 Below is the sample response where you can see, there is no data available under `sider`, instead there is `id` which has type Buffer,
-This response also throw error in graphql plugin as the `ID` type doesn't match.
+This response also throw an error in graphql plugin as the `ID` type doesn't match.
 
  - No data under dynamic component `sider`
  - Graphql plugin error as `ID` returns Buffer instead of type `ID`
